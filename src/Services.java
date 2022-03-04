@@ -1,21 +1,12 @@
+import java.util.ArrayList;
+
 public abstract class Services {
 
-    private boolean ordered;
-    private double price;
+    private String name;
+    private String city;
+    private String location;
 
-    public abstract boolean order();
-
-    public class OrderIn {
-        private String location;
-        private String dateTime;
-    }
-
-    public class OrderOut {
-        private String location;
-        private String dateTime;
-    }
-
-
+    private ArrayList<T> places = new ArrayList<>();
 
 
 }
